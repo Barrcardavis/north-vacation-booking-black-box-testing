@@ -29,6 +29,7 @@ Available
 
 <img width="768" height="114" alt="image" src="https://github.com/user-attachments/assets/2ec50362-2327-4ae1-9c20-6321ab1b0093" />
 
+
 Step 3: Test Cases
 TC01
 Classification: Number of Nights
@@ -36,17 +37,20 @@ Partition: Invalid Low
 Input: 0 nights
 Expected Result: ValueError
 
+
 TC02
 Classification: Number of Nights
 Partition: Valid
 Input: 7 nights
 Expected Result: Reservation accepted
 
+
 TC03
 Classification: Number of Nights
 Partition: Invalid High
 Input: 32 nights
 Expected Result: ValueError
+
 
 TC04
 Classification: Number of Guests
