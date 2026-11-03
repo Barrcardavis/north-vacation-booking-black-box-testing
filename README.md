@@ -26,6 +26,7 @@ Check-in and Checkout Date
 
 
 Available
+
 <img width="768" height="114" alt="image" src="https://github.com/user-attachments/assets/2ec50362-2327-4ae1-9c20-6321ab1b0093" />
 
 Step 3: Test Cases
