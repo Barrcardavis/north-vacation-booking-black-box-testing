@@ -15,6 +15,7 @@ Number of Nights
 
 
 Number of Guests
+
 <img width="770" height="211" alt="image" src="https://github.com/user-attachments/assets/82e90694-3767-4a43-9e4e-67de8d8a878d" />
 
 
