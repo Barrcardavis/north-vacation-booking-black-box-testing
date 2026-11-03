@@ -13,11 +13,14 @@ Step 2: Equivalence Partition Tables
 Number of Nights
 <img width="763" height="154" alt="image" src="https://github.com/user-attachments/assets/c0649575-0d7a-41f2-ae95-34572069fb76" />
 
+
 Number of Guests
 <img width="770" height="211" alt="image" src="https://github.com/user-attachments/assets/82e90694-3767-4a43-9e4e-67de8d8a878d" />
 
+
 Check-in and Checkout Date
 <img width="766" height="151" alt="image" src="https://github.com/user-attachments/assets/6413d121-e4d9-464a-8bed-df370daf2127" />
+
 
 Available
 <img width="768" height="114" alt="image" src="https://github.com/user-attachments/assets/2ec50362-2327-4ae1-9c20-6321ab1b0093" />
