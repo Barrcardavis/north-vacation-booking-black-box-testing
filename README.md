@@ -1,8 +1,8 @@
-### north-vacation-booking-black-box-testing
+# north-vacation-booking-black-box-testing
 
 ## Learning Practice: Black-Box Testing, Part 1
 
-# Step 1: Equivalence Partitions
+### Step 1: Equivalence Partitions
 
 Test Classifications
 Number of nights
@@ -10,7 +10,7 @@ Number of guests
 Check-in and checkout dates
 Availability
 
-# Step 2: Equivalence Partition Tables
+### Step 2: Equivalence Partition Tables
 Number of Nights
 <img width="763" height="154" alt="image" src="https://github.com/user-attachments/assets/c0649575-0d7a-41f2-ae95-34572069fb76" />
 
@@ -32,7 +32,7 @@ Available
 
 
 
-# Step 3: Test Cases
+### Step 3: Test Cases
 TC01
 Classification: Number of Nights
 Partition: Invalid Low
