@@ -13,20 +13,15 @@ Step 2: Equivalence Partition Tables
 Number of Nights
 <img width="763" height="154" alt="image" src="https://github.com/user-attachments/assets/c0649575-0d7a-41f2-ae95-34572069fb76" />
 
+Number of Guests
+<img width="770" height="211" alt="image" src="https://github.com/user-attachments/assets/82e90694-3767-4a43-9e4e-67de8d8a878d" />
 
+Check-in and Checkout Date
+<img width="766" height="151" alt="image" src="https://github.com/user-attachments/assets/6413d121-e4d9-464a-8bed-df370daf2127" />
 
+Available
+<img width="768" height="114" alt="image" src="https://github.com/user-attachments/assets/2ec50362-2327-4ae1-9c20-6321ab1b0093" />
 
-Classification	Partition	Range or Condition	Expected ResultNumber of Guests	Invalid Low	Fewer than 1 guest	ValueError
-Number of Guests	Valid Standard Rate	1–5 guests	No additional guest fee
-Number of Guests	Valid Additional Fee	6–12 guests	Additional $25 per guest per night
-Number of Guests	Invalid High	More than 12 guests	ValueError
-Check-in and Checkout Dates
-Classification	Partition	Range or Condition	Expected ResultDates	Invalid	Check-in date equals checkout date	ValueError
-Dates	Invalid	Check-in date after checkout date	ValueError
-Dates	Valid	Check-in date before checkout date	Reservation accepted
-Availability
-Classification	Partition	Range or Condition	Expected ResultAvailability	Valid	Every requested night is available	Reservation accepted
-Availability	Invalid	One or more nights unavailable	UnavailableError
 Step 3: Test Cases
 TC01
 Classification: Number of Nights
