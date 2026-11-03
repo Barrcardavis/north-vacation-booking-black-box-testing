@@ -12,6 +12,7 @@ Availability
 
 ### Step 2: Equivalence Partition Tables
 Number of Nights
+
 <img width="763" height="154" alt="image" src="https://github.com/user-attachments/assets/c0649575-0d7a-41f2-ae95-34572069fb76" />
 
 
