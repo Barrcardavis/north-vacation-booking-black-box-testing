@@ -35,56 +35,67 @@ Classification: Number of Nights
 Partition: Invalid Low
 Input: 0 nights
 Expected Result: ValueError
+
 TC02
 Classification: Number of Nights
 Partition: Valid
 Input: 7 nights
 Expected Result: Reservation accepted
+
 TC03
 Classification: Number of Nights
 Partition: Invalid High
 Input: 32 nights
 Expected Result: ValueError
+
 TC04
 Classification: Number of Guests
 Partition: Invalid Low
 Input: 0 guests
 Expected Result: ValueError
+
 TC05
 Classification: Number of Guests
 Partition: Valid Standard Rate
 Input: 4 guests
 Expected Result: Reservation accepted with no additional guest fee
+
 TC06
 Classification: Number of Guests
 Partition: Valid Additional Fee
 Input: 8 guests
 Expected Result: Reservation accepted with additional guest fee for 3 guests at $25 per guest per night
+
 TC07
 Classification: Number of Guests
 Partition: Invalid High
 Input: 13 guests
 Expected Result: ValueError
+
 TC08
 Classification: Check-in and Checkout Dates
 Partition: Invalid
 Input: Check-in = July 10, Checkout = July 10
 Expected Result: ValueError
+
 TC09
 Classification: Check-in and Checkout Dates
 Partition: Invalid
 Input: Check-in = July 15, Checkout = July 10
 Expected Result: ValueError
+
 TC10
 Classification: Check-in and Checkout Dates
 Partition: Valid
 Input: Check-in = July 10, Checkout = July 15
 Expected Result: Reservation accepted and calculated as 5 nights
+
 TC11
 Classification: Availability
 Partition: Valid
 Input: All requested nights available
 Expected Result: Reservation accepted
+
 TC12
 Classification: Availability
 Partition: Invalid
