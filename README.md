@@ -3,6 +3,7 @@
 Learning Practice: Black-Box Testing, Part 1
 
 Step 1: Equivalence Partitions
+
 Test Classifications
 Number of nights
 Number of guests
